@@ -649,10 +649,17 @@ p,
 label,
 .btn,
 a,
-.footer-tag {
+.footer-tag,
+blockquote,
+figcaption {
     font-family: "helvetica";
     font-weight: 400;
     color: black!important;
+}
+
+blockquote,
+figcaption {
+    font-style: italic;
 }
 
 .container {
