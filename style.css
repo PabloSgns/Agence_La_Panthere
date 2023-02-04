@@ -332,9 +332,20 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
-.nav > li a:focus {
+.nav > li a:hover {
     background: transparent;
+    border-bottom: black;
+}
+
+
+.nav > li a:focus {
+    background: transparent;        
+    border: 2px solid black;
+}
+
+a:focus,
+button:focus {
+    border: 2px solid;
 }
 
 .navbar-toggle {
